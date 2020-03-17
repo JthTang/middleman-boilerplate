@@ -1,6 +1,28 @@
 .terminal {
+      border-radius: 5px 5px 0 0;
+
+
+  // justify-content: center;
+  // margin: 80px;
+}
+
+// .t1 {
+//   margin-top: 20vh;
+//   margin: 0 auto;
+//   margin: 0;
+//   padding: 0;
+//   border: 0;
+//   font-size: 100%;
+//   font: inherit;
+//   justify-content: center;
+//   display: block;
+//   vertical-align: baseline;
+
+// }
+
+.row {
+  display: flex;
   justify-content: center;
-  margin: 80px;
 }
 
 .header {
@@ -11,41 +33,90 @@
   background-color: #e4e3e5;
   border-radius: 10px 10px 0 0;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
+
 }
 
 .exit {
-  background-color: #f65549;
-  border: 1px solid #f65549;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  margin-left: 9px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 6px;
+    border-width: 1px;
+    border-style: solid;
+    background: #EC6A5F;
+    border-color: #D04E42;
 }
 
 .minimise {
-  background-color: orange;
-  border-radius: 50%;
-  height: 12px;
-  width: 12px;
-  margin-left: 9px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 6px;
+    border-width: 1px;
+    border-style: solid;
+    background: #F5C04F;
+    border-color: #D6A13D;
 }
 
 .expand {
-  background-color: green;
-  border-radius: 50%;
-  height: 12px;
-  width: 12px;
-  margin-left: 9px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 6px;
+    border-width: 1px;
+    border-style: solid;
+    background: #64CC57;
+    border-color: #4EA73B;
+}
+.window .method {
+  color: #f7f7f7;
 
 }
-
 .window {
-  justify-content: flex-start;
-  align-items: center;
-  background-color: grey;
+  background-color: #34495E;
   border-radius: 0 0 4px 4px;
   font-family: Monaco;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  box-shadow: 0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
 }
 
+.test {
+    margin-bottom: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    line-height: 24px;
+}
+
+.title{
+    text-align: center;
+    display: flex;
+}
+
+.window-padding {
+  padding-top: 32px;
+}
+
+.y {
+      margin-bottom: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    line-height: 24px;
+}
+.sss {
+  margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+        color: #e7d184;
+}
